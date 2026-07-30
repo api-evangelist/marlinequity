@@ -1,8 +1,27 @@
 aid: marlinequity
-name: Marlinequity
-description: 'Marlinequity is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marlinequity.png
+name: Marlin Equity Partners
+description: 'Marlin Equity Partners (marlinequity.com) is a global investment firm
+  founded in 2005 and headquartered in Hermosa Beach, California, with an additional
+  office in London. The firm acquires and builds software and technology businesses,
+  partnering with management teams to create strategic value through operational support,
+  organic growth, and add-on acquisitions, with particular focus on financial technology
+  and e-commerce segments. Its portfolio has included companies such as Bazaarvoice,
+  Medius, StarCompliance, Exegy, and Learning Pool. This profile was surfaced as a
+  portfolio-network lead and enriched by the API Evangelist pipeline; as a private
+  equity investor rather than a technology service provider, Marlin publishes no public
+  API, developer portal, or technical documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/marlinequity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Private Equity
+- Investment
+- Technology
+- Software
+- Financial Technology
+- Mergers and Acquisitions
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/marlinequity-domain-security.yml
 - type: Website
   url: https://marlinequity.com
+- type: About
+  url: https://marlinequity.com/about/
+- type: Portfolio
+  url: https://marlinequity.com/portfolio/
+- type: Team
+  url: https://marlinequity.com/team/
+- type: Blog
+  url: https://marlinequity.com/news/
+- type: Support
+  url: https://marlinequity.com/contact/
+- type: TermsOfService
+  url: https://marlinequity.com/terms/
+- type: PrivacyPolicy
+  url: https://marlinequity.com/privacy.pdf
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
