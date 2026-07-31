@@ -1,0 +1,14 @@
+{
+  "repo": "marlinequity",
+  "feeds": [
+    {
+      "source": "https://marlinequity.com/team/",
+      "feed_url": "https://marlinequity.com/team/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
